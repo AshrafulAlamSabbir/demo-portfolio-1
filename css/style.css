@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+span,
+button,
+input,
+textarea {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.color {
+    color: orange;
+}
+
+/* h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+} */
+
+/* p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+} */
+
+.container {
+
+    display: flex;
+}
+
+.row {
+    width: 100%;
+}
+
+.banner-right img {
+    width: 100%;
+}
+
+.link-button {
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.banner {
+    background-image: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.dream {
+    display: flex;
+    margin-top: 100px;
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.d-img {
+    width: 50%;
+    padding-left: 2%;
+}
+
+.d-img img {
+    width: 90%;
+}
+
+.dlink-button {
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.container {
+    margin-bottom: 90px;
+}
+
+.exprience {
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.ex-heading1 {
+    padding-left: 22px;
+    box-shadow: 10px 10px 40px grey;
+    margin-left: -41px;
+    margin-right: 0px;
+    padding-bottom: 56px;
+    border-left: 7px solid tomato;
+}
+
+.ex-heading1 h1 {
+    margin-bottom: 30px;
+    padding-top: 36px;
+    font-size: 40px;
+}
+
+.ex-heading1 h3 {
+    font-size: 16px;
+    color: orange;
+    padding-bottom: 20px;
+}
+
+.ex-heading1 p {
+    line-height: 26px;
+}
+
+.ex-heading2 {
+
+    padding-bottom: 90px;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px grey;
+    margin-left: 36px;
+    margin-right: -78px;
+    border-left: 7px solid blue;
+}
+
+.ex-heading2 h1 {
+    margin-bottom: 30px;
+    padding-top: 36px;
+    font-size: 40px;
+}
+
+.ex-heading2 h3 {
+    font-size: 16px;
+    color: orange;
+    padding-bottom: 20px;
+}
+
+.ex-heading2 p {
+    line-height: 26px;
+    margin: 7px;
+}
+
+footer p {
+    text-align: center;
+}
